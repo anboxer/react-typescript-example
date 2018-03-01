@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "experimentalDecorators": true,
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "removeComments": true,
+        "moduleResolution": "node",
+        "allowJs": false,
+        "jsx": "react",
+        "lib": [
+            "es5",
+            "dom",
+            "es2015",
+            "es2015.core",
+            "es2015.promise",
+            "es2015.iterable",
+            "es2016.array.include"
+        ]
+    },
+    "exclude": [
+        "node_module"
+    ]
+}

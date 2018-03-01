@@ -64,6 +64,18 @@ Beautify -- 代码格式化工具
 但前端最基础依然是HTML, CSS, Javascript这些是最基本的东西。
 
 
+# 运行本示例
+
+```
+yarn install 
+
+```
+
+```
+yarn start
+```
+
+
 
 
 

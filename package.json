@@ -6,7 +6,7 @@
   "repository": "https://github.com/anboxer/react-typescript-sample.git",
   "license": "MIT",
   "scripts": {
-    "start": "cross-env NODE_ENV=dev TS_NODE_PROJECT=\"tsconfig.webpack.json\" webpack-dev-server --mode=development",
+    "start": "cross-env TS_NODE_DEBUG=true NODE_ENV=dev TS_NODE_PROJECT=\"tsconfig.webpack.json\" webpack-dev-server --mode=development",
     "build": "cross-env NODE_ENV=prod TS_NODE_PROJECT=\"tsconfig.webpack.json\" webpack --mode=production"
   },
   "dependencies": {
@@ -20,7 +20,7 @@
     "react-redux": "^5.0.7",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
-    "react-router-redux": "^4.0.8",
+    "react-router-redux": "5.0.0-alpha.9",
     "redux": "^4.0.0",
     "redux-actions": "^2.3.0",
     "redux-persist": "^5.9.1",
@@ -60,7 +60,7 @@
     "source-map-loader": "^0.2.3",
     "style-loader": "^0.21.0",
     "ts-loader": "^4.2.0",
-    "ts-node": "^6.0.0",
+    "ts-node": "5.0.1",
     "tsconfig-paths": "^3.3.1",
     "tslint": "^5.9.1",
     "tslint-clean-code": "^0.2.7",

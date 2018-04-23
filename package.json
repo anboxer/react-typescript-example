@@ -1,7 +1,9 @@
 {
   "name": "react-typescript-sample",
+  "description": " React Typescript Sample Project",
   "version": "1.0.0",
-  "main": "index.js",
+  "author": "Boan Liang <liangboxan@gmail.com>",
+  "repository": "https://github.com/anboxer/react-typescript-sample.git",
   "license": "MIT",
   "scripts": {
     "start": "cross-env NODE_ENV=dev TS_NODE_PROJECT=\"tsconfig.webpack.json\" webpack-dev-server --mode=development",
